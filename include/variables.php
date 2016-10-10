@@ -1,2 +1,2 @@
 <?php
-$bdd = new PDO('mysql:host=127.0.0.1;dbname=soundgood', 'dylan_', 'dylan_');
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=Catalogue', 'root', 'simplon123');
