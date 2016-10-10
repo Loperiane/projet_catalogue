@@ -3,8 +3,7 @@
 $bdd = new PDO('mysql:host=127.0.0.1;dbname=Catalogue', 'root', 'simplon123');
 if (isset($_POST['formconnexion'])) {
     $mailconnect = htmlspecialchars($_POST['mailconnect']);
-    // $mdpconnect = sha1($_POST['mdpconnect']);
-    $mdpconnect = $_POST['mdpconnect'];
+    $mdpconnect = sha1($_POST['mdpconnect']);
     if (!empty($mailconnect) && !empty($mdpconnect)) {
         $requser = $bdd->prepare('SELECT * FROM Admin WHERE mail = ? AND pwd = ?');
         $requser->execute(array($mailconnect, $mdpconnect));
