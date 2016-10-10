@@ -12,11 +12,25 @@
     height: 124px;
 }
 
+.container {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 img {
     width: 100%;
     max-width: 100%;
 }
 
+<<<<<<< HEAD
 ul.navigation {
     list-style-type: none;
     margin: 0;
@@ -62,11 +76,36 @@ ul.navigation li a:hover:not(.active) {
 
 .off {
     display: none!important;
+=======
+.case {
+  height: 300px;
+  width: 300px;
+  border: 3px solid rgb(237, 166, 27);
+  margin: 10px auto;
+  position: relative;
+}
+
+.caseBleue {
+  position: absolute;
+  right: -10px;
+  bottom: -15px;
+  height: 50px;
+  width: 100px;
+  background-color: rgb(23, 62, 199);
+  border-top-left-radius: 50%;
+}
+
+footer {
+  height: 120px;
+  background-color: rgb(44, 75, 184);
+  color: rgb(213, 161, 29);
+>>>>>>> catalogue/master
 }
 
 @media only screen and (min-width:540px) {}
 
 @media only screen and (min-width:720px) {
+<<<<<<< HEAD
     ul.navigation li a {
         float: left;
     }
@@ -76,6 +115,11 @@ ul.navigation li a:hover:not(.active) {
     #hamb {
         display: none;
     }
+=======
+  .flexbox {
+    flex-direction: row;
+  }
+>>>>>>> catalogue/master
 }
 
 @media only screen and (min-width:960px) {
