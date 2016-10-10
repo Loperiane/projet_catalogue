@@ -16,12 +16,20 @@
     </div>
     <nav>
         <ul class="navigation">
-            <li>Accueil</li>
-            <li>Guitare</li>
-            <li>Batterie</li>
-            <li>Basse</li>
-            <li>Piano</li>
-            <li>Home-studio</li>
+            <li>
+                <a class="active" id="acc" href="#">Accueil</a></li>
+            <li>
+                <a class="hamb" id="hamb" href="#">☰</a></li>
+            <li>
+                <a href="#" id="guit">Guitare</a></li>
+            <li>
+                <a href="#" id="batt">Batterie</a></li>
+            <li>
+                <a href="#" id="bass">Basse</a></li>
+            <li>
+                <a href="#" id="pian">Piano</a></li>
+            <li>
+                <a href="#" id="hs">Home-studio</a></li>
         </ul>
     </nav>
     <div class="sidebar">
@@ -31,6 +39,7 @@
 
     </div>
     <footer></footer>
+    <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 </body>
 
