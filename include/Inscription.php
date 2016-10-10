@@ -7,9 +7,7 @@ if (isset($_POST['forminscription'])) {
   $mail2 = htmlspecialchars($_POST['mail2']);
   $mdp = sha1($_POST['mdp']);
   $mdp2 = sha1($_POST['mdp2']);
-  $captcha = htmlspecialchars($_POST['captcha']);
   if (!empty($_POST['pseudo']) && !empty($_POST['mail']) && !empty($_POST['mail2']) && !empty($_POST['mdp']) && !empty($_POST['mdp2']) && !empty($_POST['captcha'])) {
-    if ($captcha == 5) {
       $pseudolength = strlen($pseudo);
       if ($pseudolength <= 255 && $pseudolength >= 3) {
         $reqpseudo = $bdd->prepare('SELECT * FROM user WHERE pseudo = ?');
@@ -49,8 +47,6 @@ if (isset($_POST['forminscription'])) {
       } else {
         $erreur = 'Votre pseudo ne dispose pas d\'une taille réglementaire';
       }
-    }else{
-      $erreur = 'Mauvais Captcha';
     }
   }else {
     $erreur = 'Tous les champs doivent être complétés !';

@@ -1,9 +1,10 @@
 <?php
 
-$bdd = new PDO('mysql:host=127.0.0.1;dbname=soundgood', 'dylan_', 'dylan_');
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=Catalogue', 'root', 'simplon123');
 if (isset($_POST['formconnexion'])) {
     $mailconnect = htmlspecialchars($_POST['mailconnect']);
-    $mdpconnect = sha1($_POST['mdpconnect']);
+    // $mdpconnect = sha1($_POST['mdpconnect']);
+    $mdpconnect = $_POST['mdpconnect'];
     if (!empty($mailconnect) && !empty($mdpconnect)) {
         $requser = $bdd->prepare('SELECT * FROM user WHERE mail = ? AND pwd = ?');
         $requser->execute(array($mailconnect, $mdpconnect));
@@ -11,10 +12,8 @@ if (isset($_POST['formconnexion'])) {
         if ($userexist == 1) {
             $userinfo = $requser->fetch();
             $_SESSION['id'] = $userinfo['id'];
-            $_SESSION['pseudo'] = $userinfo['pseudo'];
             $_SESSION['mail'] = $userinfo['mail'];
-            $_SESSION['isAdmin'] = $userinfo['isAdmin'];
-            header('Location: accueil.php');
+            header('Location: index.php');
         } else {
             $erreur = 'Mauvais mail ou mot de passe !';
         }
