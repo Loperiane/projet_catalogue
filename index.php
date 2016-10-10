@@ -6,7 +6,7 @@
     <title>Catalogue</title>
     <meta name="name" content="content">
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/simple-grid.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/simple-grid.css" media="screen" title="no title" charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
 </head>
