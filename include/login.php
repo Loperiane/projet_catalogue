@@ -6,7 +6,7 @@ if (isset($_POST['formconnexion'])) {
     // $mdpconnect = sha1($_POST['mdpconnect']);
     $mdpconnect = $_POST['mdpconnect'];
     if (!empty($mailconnect) && !empty($mdpconnect)) {
-        $requser = $bdd->prepare('SELECT * FROM user WHERE mail = ? AND pwd = ?');
+        $requser = $bdd->prepare('SELECT * FROM Admin WHERE mail = ? AND pwd = ?');
         $requser->execute(array($mailconnect, $mdpconnect));
         $userexist = $requser->rowCount();
         if ($userexist == 1) {
