@@ -45,6 +45,7 @@ img {
   height: 50px;
   width: 100px;
   background-color: rgb(23, 62, 199);
+  border-top-left-radius: 50%;
 }
 
 footer {
