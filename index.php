@@ -24,12 +24,31 @@
             <li>Home-studio</li>
         </ul>
     </nav>
-    <div class="sidebar">
 
+<div class="container">
+  <div class="row">
+    <div class="col-2 center">
+      <p>Marque 1</p>
+      <p>Marque 2</p>
+      <p>Marque 3</p>
+      <p>Marque 4</p>
+      <p>Marque 5</p>
     </div>
-    <div class="container">
+    <div class="col-10">
+      <div class="col-3"><div class="case"></div></div>
+      <div class="col-3"><div class="case"></div></div>
+      <div class="col-3"><div class="case"></div></div>
+      <div class="col-3"><div class="case"></div></div>
+    </div>
+    <div class="col-10">
+      <div class="col-3"><div class="case"></div></div>
+      <div class="col-3"><div class="case"></div></div>
+      <div class="col-3"><div class="case"></div></div>
+      <div class="col-3"><div class="case"></div></div>
+    </div>
+</div>
+</div>
 
-    </div>
     <footer></footer>
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 </body>
