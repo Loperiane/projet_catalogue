@@ -15,31 +15,31 @@
 
                     <li id="acc"><a href="#">Accueil</a></li>
 
-                    <li class="titre-menu">Guitare</li>
+                    <li class="titre-menu"><a href="#">Guitare</a></li>
 
                     <li><a class="categorie-side" href="#">Fender</a></li>
                     <li><a class="categorie-side" href="#">Gibson</a></li>
                     <li><a class="categorie-side" href="#">Martin</a></li>
 
-                    <li class="titre-menu">Basse</li>
+                    <li class="titre-menu"><a href="#">Basse</a></li>
 
                     <li><a class="categorie-side" href="#">Fender</a></li>
                     <li><a class="categorie-side" href="#">ESP</a></li>
                     <li><a class="categorie-side" href="#">Gretsch</a></li>
 
-                    <li class="titre-menu">Batterie</li>
+                    <li class="titre-menu"><a href="#">Batterie</a></li>
 
                     <li><a class="categorie-side" href="#">Pearl</a></li>
                     <li><a class="categorie-side" href="#">Sonor</a></li>
                     <li><a class="categorie-side" href="#">Yamaha</a></li>
 
-                    <li class="titre-menu">Piano</li>
+                    <li class="titre-menu"><a href="#">Piano</a></li>
 
                     <li><a class="categorie-side" href="#">Yamaha</a></li>
                     <li><a class="categorie-side" href="#">Seiler</a></li>
                     <li><a class="categorie-side" href="#">Steinway</a></li>
 
-                    <li class="titre-menu hs">Home-studio</li>
+                    <li class="titre-menu hs"><a href="#">Home-studio</a></li>
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingOne">
