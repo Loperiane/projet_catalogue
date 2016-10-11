@@ -55,9 +55,14 @@ img {
     border: 3px solid rgb(237, 166, 27);
     margin: 10px auto;
     position: relative;
+    border-top-left-radius: 20px;
 }
 
 .caseBleue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     right: -10px;
     bottom: -15px;
@@ -65,6 +70,17 @@ img {
     width: 100px;
     background-color: rgb(23, 62, 199);
     border-top-left-radius: 50%;
+}
+
+.t-caseBleue {
+    text-align: center;
+    color: aliceblue;
+}
+
+.t-caseBleue:hover {
+    text-align: center;
+    color: #b9deff;
+    text-decoration: none;
 }
 
 footer {
