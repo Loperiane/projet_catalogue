@@ -8,6 +8,7 @@ if (isset($_POST['formconnexion'])) {
         $requser->execute(array($mailconnect, $mdpconnect));
         $userexist = $requser->rowCount();
         if ($userexist == 1) {
+            session_start();
             $userinfo = $requser->fetch();
             $_SESSION['id'] = $userinfo['id'];
             $_SESSION['mail'] = $userinfo['mail'];
