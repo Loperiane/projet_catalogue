@@ -147,7 +147,8 @@
         <div class="col-sm-10">
             <div class="flexbox">
                 <div class="case">
-                    <div class="caseBleue"></div>
+                  <img src="img/zoom.jpg" alt="" />
+                    <div class="caseBleue">en savoir plus>></div>
                 </div>
                 <div class="case">
                     <div class="caseBleue"></div>
