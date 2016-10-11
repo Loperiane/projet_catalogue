@@ -10,7 +10,13 @@
     margin-top: 0;
     width: 100%;
     height: 124px;
+    display: none;
     /*    margin-bottom: 50px;*/
+}
+
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(184, 184, 184, 0.2);
 }
 
 #hr {
@@ -24,7 +30,7 @@
 .titre-menu {
 /*    padding: 15px 0 15px 0;*/
     font-size: 2rem;
-    background-color: rgba(23, 62, 199, 0.2);
+    background-color: rgba(23, 62, 199, 0);
     color: #525252;
     text-align: center;
     box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
@@ -32,7 +38,15 @@
 }
 
 .hs {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#imgdemerde {
+    width: 600px;
+}
+
+#mod {
+    width: 90%;
 }
 
 .sidebar {
@@ -66,12 +80,14 @@ img {
 }
 
 .categorie-side:hover {
-    /*
+
+/*
         box-shadow: inset 0 0 20px rgba(23, 62, 199, 0.3),
  0 0 0 2px rgb(0, 10, 255),
  5px 5px 200px 50px #ff00b1,
  inset 0 0 60px 10px rgb(0, 255, 88);
 */
+
     box-shadow: inset 0 0 20px rgba(23, 62, 199, 0.3), inset 0 0 0 .5px rgba(0, 4, 114, 0.3);
     transition: .1s;
 }
@@ -79,9 +95,7 @@ img {
 #acc {
     text-align: center;
     box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.3);
     font-size: 2.4rem;
-    border-bottom: 5px solid rgba(14, 36, 113, 0.8);
 }
 
 .case {
@@ -91,6 +105,23 @@ img {
     margin: 25px 10px;
     position: relative;
     border-top-left-radius: 20px;
+}
+
+.hs-bgcolor {
+    background-color: transparent!important;
+    border: 1px solid rgba(255, 255, 255, 0)!important;
+}
+
+.hs-border {
+   border: 1px solid rgba(255, 255, 255, 0)!important;
+}
+
+.hs-cont {
+    margin: 0;
+}
+
+.modal-footer {
+    border-top:1px solid transparent!important;
 }
 
 .caseBleue {
@@ -124,7 +155,9 @@ footer {
     color: rgb(213, 161, 29);
 }
 
-@media only screen and (min-width:540px) {}
+@media only screen and (min-width:540px) {
+
+}
 
 @media only screen and (min-width:720px) {
     .flexbox {
@@ -159,6 +192,9 @@ footer {
         padding-top: 12px;
         padding-bottom: 12px;
     }
+    #imgdemerde {
+    width: 400px;
+    }
 }
 
 @media only screen and (min-width:960px) {
@@ -172,5 +208,11 @@ footer {
     }
     .recherche {
         width: 220px!important;
+    }
+}
+
+@media only screen and (min-width:1150px) {
+    #imgdemerde {
+    width: 600px;
     }
 }

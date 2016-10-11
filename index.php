@@ -27,7 +27,7 @@
     <body>
 
         <div class="banniere"></div>
-        <hr id="hr">
+<!--        <hr id="hr">-->
 
         <!--<?php include 'include_front/topnav.php'; ?>-->
 
@@ -40,11 +40,14 @@
             //include 'include_front/case_back.php';
             include 'include_front/case_front.php';
 
+
             ?>
 
         </div>
 
         <?php include 'include_front/footer.php';?>
+
+        <?php include 'include_front/modal_produit.php';?>
 
         <!-- Ajout des cdn JS -->
 

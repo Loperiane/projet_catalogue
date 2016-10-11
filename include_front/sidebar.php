@@ -40,9 +40,9 @@
                     <li><a class="categorie-side" href="#">Steinway</a></li>
 
                     <li class="titre-menu hs"><a href="#">Home-studio</a></li>
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
+                    <div class="panel-group hs-cont" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default hs-border">
+                            <div class="panel-heading hs-bgcolor" role="tab" id="headingOne">
                                 <h4 class="h-titre panel-title">
                                             <a class="titre-hs" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                               Interfaces audio
@@ -57,8 +57,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
+                        <div class="panel panel-default hs-border">
+                            <div class="panel-heading hs-bgcolor" role="tab" id="headingTwo">
                                 <h4 class="panel-title">
                                             <a class="collapsed titre-hs" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                               Enceintes de monitoring
@@ -73,13 +73,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
+                        <div class="panel panel-default hs-border">
+                            <div class="panel-heading hs-bgcolor" role="tab" id="headingThree">
                                 <h4 class="panel-title">
-                                            <a class="collapsed titre-hs" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <a class="collapsed titre-hs" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                               Microphones
-                                            </a>
-                                          </h4>
+                                    </a>
+                                </h4>
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                 <div class="panel-body">
