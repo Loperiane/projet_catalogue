@@ -54,7 +54,8 @@
         <div class="flexbox">
             <div class="col-4">
                 <div class="case">
-                    <div class="caseBleue"></div>
+                  <img src="img/zoom.jpg" alt="" />
+                    <div class="caseBleue">en savoir plus>></div>
                 </div>
             </div>
             <div class="col-4">
