@@ -49,6 +49,8 @@
 
         <?php include 'include_front/modal_produit.php';?>
 
+        <?php include 'include_front/scroll_top.php' ;?>
+
         <!-- Ajout des cdn ou fichier JS -->
 
         <script src="js/script.js"></script>
@@ -57,6 +59,10 @@
         </script>
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+        </script>
+
+        <script src="js/scrolltop.js">
+
         </script>
 
     </body>
