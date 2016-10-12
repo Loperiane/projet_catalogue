@@ -4,9 +4,8 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="">APPUYER ICI POUR AFFICHER LE MENU</span>
+                    <span class="glyphicon glyphicon-arrow-down"></span>
                 </button>
                 <span class="visible-xs navbar-brand">Menu</span>
             </div>
