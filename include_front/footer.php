@@ -2,10 +2,10 @@
     <div class="container">
       <div clas="row">
         <div class="col-md-4 text-center">
-          <p>Codé par Dylan, Devika, Florent, Loïc et Guillaume</p>
+          <p>Codé par <strong>Dylan</strong>, <strong>Devika</strong>, <strong>Florent</strong>, <strong>Loïc</strong> et <strong>Guillaume</strong></p>
         </div>
         <div class="col-md-4 text-center">
-          <p>Fait avec amour</p>
+          <p>Fait avec <i class="fa fa-heartbeat" aria-hidden="true"></i></p>
         </div>
         <div class="col-md-4 text-center">
           <p>Suivez nous sur:</p>
