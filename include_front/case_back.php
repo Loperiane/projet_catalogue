@@ -3,8 +3,14 @@
     <div class="flexbox">
 
         <div class="case">
-            <div class="caseBleue"><a class="t-caseBleue" href="#">En savoir<br> plus >></a></div>
+
+            <a href="#" class="" data-toggle="modal" data-target="#myModal" class="clik">
+                <img src="" alt="" />
+                <div class="caseBleue">
+                    <div class="t-caseBleue">En savoir<br> plus >></div>
+                </div>
+            </a>
         </div>
-    </div>
+
     <?php include 'include_front/pagination.php'; ?>
 </div>

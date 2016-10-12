@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+a:focus
+{
+    outline: none;
+}
+
 .banniere {
     background-image: url(../img/banner2.png);
     background-repeat: no-repeat;
