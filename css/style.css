@@ -185,9 +185,9 @@ a:focus
 /*______FOOTER______*/
 
 footer {
-    height: 120px;
     background-color: rgb(44, 75, 184);
     color: rgb(213, 161, 29);
+    padding: 20px;
 }
 
 
