@@ -4,8 +4,8 @@
 
         <div class="case">
 
-            <a href="#" class="" data-toggle="modal" data-target="#myModal" class="clik">
-                <img src="img/zoom.png" alt="" />
+            <a href="#" data-toggle="modal" data-target="#myModal" class="clik">
+                <img class="img-case" src="img/zoom.png" alt="" />
                 <div class="caseBleue">
                     <div class="t-caseBleue">En savoir<br> plus >></div>
                 </div>
