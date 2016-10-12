@@ -51,7 +51,9 @@
 
         <?php include 'include_front/modal_produit.php';?>
 
-        <!-- Ajout des cdn JS -->
+        <!-- Ajout des cdn ou fichier JS -->
+
+        <script src="js/script.js"></script>
 
         <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
         </script>

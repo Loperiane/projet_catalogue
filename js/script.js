@@ -1,22 +1,14 @@
-var hamb = document.getElementById('hamb'),
-    guit = document.getElementById('guit'),
-    batt = document.getElementById('batt'),
-    bass = document.getElementById('bass'),
-    pian = document.getElementById('pian'),
-    hs = document.getElementById('hs');
+var resumeCase = document.getElementById("resume-case"),
+    imgCase = document.getElementById("img-case");
 
-hamb.addEventListener('click', function () {
-    if (guit.classList.contains('off')) {
-        guit.classList.remove('off');
-        batt.classList.remove('off');
-        bass.classList.remove('off');
-        pian.classList.remove('off');
-        hs.classList.remove('off');
-    } else {
-        guit.classList.add('off');
-        batt.classList.add('off');
-        bass.classList.add('off');
-        pian.classList.add('off');
-        hs.classList.add('off');
-    }
-})
+function caseHover(x) {
+    x.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+    resumeCase.style.color = "white";
+    imgCase.style.opacity = ".2";
+}
+
+function normalCase(x) {
+    x.style.backgroundColor = "transparent";
+    resumeCase.style.color = "transparent";
+    imgCase.style.opacity = "1";
+}

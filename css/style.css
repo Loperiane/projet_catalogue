@@ -125,12 +125,6 @@ a:focus
     transition: .3s;
 }
 
-.case:hover{
-    background-color: rgba(0, 0, 0, 0.4);
-    z-index: 9;
-    transition: .3s;
-}
-
 .caseBleue {
     display: flex;
     flex-direction: column;
@@ -159,11 +153,18 @@ a:focus
 .img-case {
     width: 100%;
     max-width: 100%;
+    position: absolute;
     transition: .3s;
 }
-.img-case:hover {
-    opacity: .1;
+
+#resume-case {
+    position: absolute;
+    margin: 0 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: transparent;
     transition: .3s;
+    text-decoration: none;
 }
 
 /*______MODAL______*/
