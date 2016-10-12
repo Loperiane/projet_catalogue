@@ -99,6 +99,26 @@ a:focus
     margin: 0;
 }
 
+form {
+    text-align: center;
+}
+
+#mdp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input {
+    margin-left: 1em;
+}
+
+#sub {
+    padding: 8px;
+    background-color: rgba(127, 181, 255, 0.8);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
 
 
 /*______CONTAINER______*/
@@ -168,6 +188,8 @@ a:focus
     text-decoration: none;
 }
 
+
+
 /*______MODAL______*/
 
 #mod {
@@ -234,6 +256,9 @@ footer {
     }
     #imgdemerde {
     width: 400px;
+    }
+    input {
+        margin-left: -5px;
     }
 }
 

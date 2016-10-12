@@ -14,3 +14,4 @@ function normalCase(x) {
     resumeCase.style.color = "transparent";
     imgCase.style.opacity = "1";
 }
+

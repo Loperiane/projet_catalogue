@@ -43,10 +43,10 @@
                         <div class="panel panel-default hs-border">
                             <div class="panel-heading hs-bgcolor" role="tab" id="headingOne">
                                 <h4 class="h-titre panel-title">
-                                            <a class="titre-hs" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                              Interfaces audio
-                                            </a>
-                                        </h4>
+                                    <a class="titre-hs" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Interfaces audio
+                                    </a>
+                                </h4>
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                 <div class="panel-body">
@@ -88,6 +88,31 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    <li class="titre-menu hs"><a href="#">Admin</a></li>
+                    <div class="panel-group hs-cont" id="accordion2" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default hs-border">
+                            <div class="panel-heading hs-bgcolor" role="tab" id="headingOne1">
+                                <h4 class="h-titre panel-title">
+                                    <a class="titre-hs" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                                        Connexion
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne1">
+                                <div class="panel-body">
+                                    <form action="include/login.php" method="post">
+                                        <input type="mail" name="mailconnect" placeholder="Votre Mail">
+                                        <input type="password" name="mdpconnect" id="mdp" placeholder="Votre Mot de passe">
+                                        <br>
+                                        <input class="btn" id="sub" type="submit" name="formconnexion">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
 
                 </ul>

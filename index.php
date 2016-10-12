@@ -41,8 +41,6 @@
             include 'include_front/sidebar.php';
             //include 'include_front/case_back.php';
             include 'include_front/case_front.php';
-
-
             ?>
 
         </div>
