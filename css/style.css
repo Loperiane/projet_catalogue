@@ -3,33 +3,139 @@
     padding: 0;
 }
 
+a:focus
+{
+    outline: none;
+}
+
+
+
+/*______ELEMENTS MUTES______*/
+
 .banniere {
-    background-image: url(../img/banner.png);
+    background-image: url(../img/banner2.png);
     background-repeat: no-repeat;
     background-size: 100% 124px;
     margin-top: 0;
     width: 100%;
     height: 124px;
+    display: none;
+    /*    margin-bottom: 50px;*/
 }
 
-img {
-    width: 100%;
-    max-width: 100%;
+#hr {
+    margin: 25px 15%;
 }
 
-.container {
-  width: 90%;
-  display: block;
-  margin: 0 auto;
+
+
+/*______NAV et SIDEBAR_______*/
+
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(184, 184, 184, 0.2);
+}
+
+#acc {
+    text-align: center;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+    font-size: 2.4rem;
+}
+
+.titre-menu {
+/*    padding: 15px 0 15px 0;*/
+    font-size: 2rem;
+    background-color: rgba(23, 62, 199, 0);
+    color: #525252;
+    text-align: center;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.sidebar {
+    text-align: right;
+}
+
+.hs {
+    margin-bottom: 10px;
+}
+
+.titre-hs {
+    text-decoration: none!important;
+    color: #7c7c7c!important;
+}
+
+.titre-hs:hover {
+    color: black!important;
+}
+
+.categorie-side {
+    transition: 2s;
+}
+
+.categorie-side:hover {
+
+/*
+        box-shadow: inset 0 0 20px rgba(23, 62, 199, 0.3),
+ 0 0 0 2px rgb(0, 10, 255),
+ 5px 5px 200px 50px #ff00b1,
+ inset 0 0 60px 10px rgb(0, 255, 88);
+*/
+
+    box-shadow: inset 0 0 20px rgba(23, 62, 199, 0.3), inset 0 0 0 .5px rgba(0, 4, 114, 0.3);
+    transition: .1s;
+}
+
+.hs-bgcolor {
+    background-color: transparent!important;
+    border: 1px solid rgba(255, 255, 255, 0)!important;
+}
+
+.hs-border {
+   border: 1px solid rgba(255, 255, 255, 0)!important;
+}
+
+.hs-cont {
+    margin: 0;
+}
+
+
+
+/*______CONTAINER______*/
+
+.pagi {
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .case {
     height: 300px;
+    width: 300px;
     border: 3px solid rgb(237, 166, 27);
-    margin: 20px;
+    margin: 25px 10px;
     position: relative;
+    border-top-left-radius: 20px;
+    transition: .3s;
 }
+
+.case:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 9;
+    transition: .3s;
+}
+
 .caseBleue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     right: -10px;
     bottom: -15px;
@@ -39,19 +145,96 @@ img {
     border-top-left-radius: 50%;
 }
 
+.t-caseBleue {
+    text-align: center;
+    color: aliceblue;
+}
+
+.t-caseBleue:hover {
+    text-align: center;
+    color: #b9deff;
+    text-decoration: none;
+}
+
+.img-case {
+    width: 100%;
+    max-width: 100%;
+    transition: .3s;
+}
+.img-case:hover {
+    opacity: .1;
+    transition: .3s;
+}
+
+/*______MODAL______*/
+
+#mod {
+    width: 90%;
+}
+
+#imgdemerde {
+    width: 600px;
+}
+
+.modal-footer {
+    border-top:1px solid transparent!important;
+}
+
+
+
+/*______FOOTER______*/
+
+footer {
+    height: 120px;
+    background-color: rgb(44, 75, 184);
+    color: rgb(213, 161, 29);
+}
+
+
+
+/*______MEDIA QUERIES______*/
+
 @media only screen and (min-width:540px) {
+
 }
 
 @media only screen and (min-width:720px) {
-    ul.navigation li a {
-        float: left;
+    .flexbox {
+        flex-direction: row;
     }
-    #guit {
+    .recherche {
+        width: 150px!important;
+    }
+    .banniere {
+        background-image: url(../img/banner.png);
+        background-repeat: no-repeat;
+        background-size: 100% 124px;
         margin-top: 0;
+        width: 100%;
+        height: 124px;
     }
-    #hamb {
-        display: none;
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
     }
+    .sidebar-nav .navbar ul {
+        float: none;
+    }
+    .sidebar-nav .navbar ul:not {
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    #imgdemerde {
+    width: 400px;
+    }
+<<<<<<< HEAD
     .container {
       display: flex;
       align-items: center;
@@ -65,12 +248,27 @@ img {
     .container .case {
       width: 40%;
     }
+=======
+>>>>>>> fc78a3dfd9a54fcb0a23d7d0be1687f06cd5052f
 }
 
 @media only screen and (min-width:960px) {
     .banniere {
-        background-size: contain;
-        background-position: center;
+        background-image: url(../img/banner3.png);
+        background-repeat: no-repeat;
+        background-size: 100% 124px;
+        margin-top: 0;
+        width: 100%;
+        height: 124px;
+    }
+    .recherche {
+        width: 220px!important;
+    }
+}
+
+@media only screen and (min-width:1150px) {
+    #imgdemerde {
+    width: 600px;
     }
 
     .container .case {

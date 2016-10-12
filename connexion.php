@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,8 +6,7 @@
     <title>Connexion</title>
   </head>
   <body>
-    <?php include 'include/login.php'; ?>
-    <form action="" method="post">
+    <form action="include/login.php" method="post">
       <input type="mail" name="mailconnect" placeholder="Votre Mail">
       <input type="password" name="mdpconnect" placeholder="Votre Mot de passe">
       <input type="submit" name="formconnexion">

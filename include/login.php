@@ -1,5 +1,4 @@
 <?php
-
 $bdd = new PDO('mysql:host=127.0.0.1;dbname=Catalogue', 'root', 'simplon123');
 if (isset($_POST['formconnexion'])) {
     $mailconnect = htmlspecialchars($_POST['mailconnect']);
@@ -9,10 +8,11 @@ if (isset($_POST['formconnexion'])) {
         $requser->execute(array($mailconnect, $mdpconnect));
         $userexist = $requser->rowCount();
         if ($userexist == 1) {
+            session_start();
             $userinfo = $requser->fetch();
             $_SESSION['id'] = $userinfo['id'];
             $_SESSION['mail'] = $userinfo['mail'];
-            header('Location: index.php');
+            header('Location: ../admin/admin.php');
         } else {
             $erreur = 'Mauvais mail ou mot de passe !';
         }
