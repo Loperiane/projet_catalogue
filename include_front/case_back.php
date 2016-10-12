@@ -7,7 +7,7 @@
             <a href="#" data-toggle="modal" data-target="#myModal" class="clik">
                 <img class="img-case" id="img-case" src="" alt="" />
                 <p id="resume-case"></p>
-                <div class="caseBleue">
+                <div class="caseBleue" id="caseBleue">
                     <div class="t-caseBleue">En savoir<br> plus >></div>
                 </div>
             </a>
