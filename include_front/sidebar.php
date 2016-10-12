@@ -103,8 +103,8 @@
                             <div id="collapseOne1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne1">
                                 <div class="panel-body">
                                     <form action="include/login.php" method="post">
-                                        <input type="mail" name="mailconnect" placeholder="Votre Mail">
-                                        <input type="password" name="mdpconnect" id="mdp" placeholder="Votre Mot de passe">
+                                        <input class="input-text" type="mail" name="mailconnect" placeholder="Votre Mail">
+                                        <input class="input-text" type="password" name="mdpconnect" id="mdp" placeholder="Votre Mot de passe">
                                         <br>
                                         <input class="btn" id="sub" type="submit" name="formconnexion">
                                     </form>
