@@ -2,14 +2,16 @@
     <?php include 'include_front/pagination.php'; ?>
     <div class="flexbox">
 
-        <div class="case">
+        <div class="case" id="case" onmouseover="caseHover(this)" onmouseout="normalCase(this)">
 
-            <a href="#" class="" data-toggle="modal" data-target="#myModal" class="clik">
-                <img src="" alt="" />
-                <div class="caseBleue">
+            <a href="#" data-toggle="modal" data-target="#myModal" class="clik">
+                <img class="img-case" id="img-case" src="" alt="" />
+                <p id="resume-case"></p>
+                <div class="caseBleue" id="caseBleue">
                     <div class="t-caseBleue">En savoir<br> plus >></div>
                 </div>
             </a>
+
         </div>
 
     <?php include 'include_front/pagination.php'; ?>
