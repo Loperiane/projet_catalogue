@@ -2,7 +2,7 @@
     <div class="container">
       <div clas="row">
         <div class="col-md-4 text-center">
-          <p>Codé par Dylan, Devika, Florent, Loic et Guillaume</p>
+          <p>Codé par Dylan, Devika, Florent, Loïc et Guillaume</p>
         </div>
         <div class="col-md-4 text-center">
           <p>Fait avec amour</p>
