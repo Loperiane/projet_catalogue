@@ -167,8 +167,6 @@ a:focus
     text-decoration: none;
 }
 
-
-
 /*______MODAL______*/
 
 #mod {
@@ -237,6 +235,22 @@ footer {
     #imgdemerde {
     width: 400px;
     }
+<<<<<<< HEAD
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 80%;
+    }
+    .case {
+      margin: 10px;
+    }
+    .container .case {
+      width: 40%;
+    }
+=======
+>>>>>>> fc78a3dfd9a54fcb0a23d7d0be1687f06cd5052f
 }
 
 @media only screen and (min-width:960px) {
@@ -256,5 +270,9 @@ footer {
 @media only screen and (min-width:1150px) {
     #imgdemerde {
     width: 600px;
+    }
+
+    .container .case {
+      width: 30%;
     }
 }
