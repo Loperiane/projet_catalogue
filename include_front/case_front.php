@@ -1,4 +1,6 @@
 <div class="col-sm-10">
+    <h1 style="text-align:center;">MUSIC & CO</h1>
+    <h2 style="text-align:center;">Le meilleur catalogue en ligne spécialisé dans musique depuis 2016</h2>
     <?php include 'include_front/pagination.php'; ?>
     <div class="flexbox">
 
