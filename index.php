@@ -7,9 +7,11 @@
 
         <meta charset="utf-8">
 
-        <title>Catalogue</title>
+        <title>Music & co</title>
 
         <meta name="name" content="content">
+
+        <link rel="icon" href="img/fav.png" />
 
         <!-- <link rel="stylesheet" href="css/simple-grid.css" media="screen" title="no title" charset="utf-8"> -->
 
@@ -22,6 +24,12 @@
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
         <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+
+        <script src="http://use.edgefonts.net/nova-slim:n4:all.js"></script>
+
+        <script src="http://use.edgefonts.net/fredericka-the-great:n4:all;nova-slim:n4:all.js"></script>
+
+        <script src="http://use.edgefonts.net/fredericka-the-great:n4:all;loved-by-the-king:n4:all;nova-slim:n4:all.js"></script>
 
     </head>
 
