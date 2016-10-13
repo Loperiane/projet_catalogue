@@ -4,6 +4,10 @@
     font-family: nova-slim;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 h1 {
     font-family: fredericka-the-great;
 }
