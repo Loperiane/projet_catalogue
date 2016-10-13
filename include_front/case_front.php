@@ -7,8 +7,8 @@
         <div class="case" id="case" onmouseover="caseHover(this)" onmouseout="normalCase(this)">
 
             <a href="#" data-toggle="modal" data-target="#myModal" class="clik">
-                <img class="img-case" id="img-case" src="img/zoom.png" alt="" />
-                <p id="resume-case">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem facere ad quibusdam, obcaecati magni, id qui explicabo sapiente, repudiandae quae maiores. Delectus veniam voluptas, nihil dolorem quae perspiciatis, aspernatur voluptates! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta et, unde ratione illo saepe voluptatibus quidem vel eius, magnam velit animi commodi repellendus aliquam voluptates inventore quo quas sed non.</p>
+                <img class="img-case" id="img-case" src="img/fender.png" alt="" />
+                <p id="resume-case">Corps en aulne<br> Manche en érable<br> Touche érable<br> 22 frettes Médium Jumbo<br> Diapason: 648 mm<br> Micros Custom Shop Fat 50s Strat<br> Couleur: Olympic White<br> Livrée en étui</p>
                 <div class="caseBleue" id="caseBleue">
                     <div class="t-caseBleue">En savoir<br> plus >></div>
                 </div>

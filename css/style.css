@@ -182,7 +182,9 @@ form input:-webkit-autofill {
     text-decoration: none;
 }
 
+
 .img-case {
+    text-align: center;
     width: 100%;
     max-width: 100%;
     position: absolute;

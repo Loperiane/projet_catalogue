@@ -6,14 +6,15 @@
 
             <div class="modal-header" id="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title" id="modal-titre">Nom Produit</h4>
+              <h4 class="modal-title" id="modal-titre">Fender AM Standard Strat MN OW</h4>
             </div>
 
         <div class="modal-body">
 
-            <img src="img/zoom.png" class="pull-left img-responsive" id="img-modal">
+            <img src="img/fender.png" class="pull-left img-responsive" id="img-modal">
 
-            <p id="modal-paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore odit incidunt iure nulla enim aperiam laboriosam minima tempora expedita tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio incidunt eius, soluta culpa tempore delectus sequi laborum laboriosam molestias, eligendi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis necessitatibus incidunt blanditiis dignissimos ipsum quasi neque et eum vitae magnam excepturi, quae aperiam dolore laudantium similique unde tenetur ullam, harum culpa eius? Aperiam veniam excepturi pariatur neque nam quas, qui ipsam, molestiae aspernatur aut ad dolore, nemo est, natus ratione.</p>
+            <p id="modal-paragraphe">Corps en aulne<br>Manche en érable<br>Touche érable<br>22 frettes Médium Jumbo<br>Diapason: 648 mm<br>Micros Custom Shop Fat 50s Strat<br>Couleur: Olympic White<br>Livrée en étui<br>Prix estimé : env. 1.500 €<br><br>Icône, ce n’est pas un mot à utiliser à la légère. Une icône c’est plus qu’un objet en soit, et c’est justement ce que représente la Stratocaster®, elle est intemporelle.<br><br>Les New American Standard Stratocaster® possèdent une vraie aura. Elles présentent de réelles évolutions en matière de look, de son et de confort de jeux.<br><br>Fender a conservé sa touche dont les bords sont polis à la main, ses micros en alnico V et ses mécaniques étagées qui offrent une excellente stabilité, tout en apportant de nouvelles améliorations.
+</p>
 
 
         <!--div class="modal-footer">-->
